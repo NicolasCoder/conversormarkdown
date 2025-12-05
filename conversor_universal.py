@@ -8,7 +8,7 @@ init(autoreset=True)
 
 # --- CONFIGURAÇÕES ---
 # Lista de extensões de arquivo que o programa tentará converter
-# Adicione ou remova extensões conforme necessário
+# Adicione ou remova extensões cssário
 SUPPORTED_EXTENSIONS = (
     '.pdf', '.docx', '.pptx', '.xlsx', '.html', '.htm', 
     '.jpg', '.jpeg', '.png', '.mp3', '.wav', '.csv', 
