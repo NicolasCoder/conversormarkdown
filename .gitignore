@@ -1,0 +1,3 @@
+.venv/
+build/ConversorMarkdownCLI/localpycs/*.pyc
+build/ConversorMarkdownCLI/*.toc
