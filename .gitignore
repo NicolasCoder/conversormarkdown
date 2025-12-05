@@ -1,3 +1,15 @@
+# Ignorar ambiente virtual
 .venv/
-build/ConversorMarkdownCLI/localpycs/*.pyc
-build/ConversorMarkdownCLI/*.toc
+venv/
+env/
+
+# Ignorar arquivos de compilação do Python
+__pycache__/
+*.pyc
+
+# Ignorar pastas de build do PyInstaller (Onde está o seu problema principal)
+build/
+dist/
+
+# Opcional: Ignorar o arquivo de especificação se não quiser versioná-lo
+*.spec
